@@ -47,7 +47,7 @@ const Products = () => {
       <div style={{ textAlign: 'center', marginBottom: '60px' }}>
         <h2 style={{ fontSize: '2.5rem', marginBottom: '15px' }}>Products & Demos</h2>
         <p style={{ maxWidth: '600px', margin: '0 auto' }}>
-          Explore our latest technology demonstrations and production-ready solutions built on the VoxInnov core.
+          Explore our latest technology demonstrations and production-ready solutions built on the VOXINNOV core.
         </p>
       </div>
 

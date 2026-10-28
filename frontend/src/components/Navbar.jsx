@@ -27,21 +27,7 @@ const Navbar = () => {
       transition: 'all 0.4s ease'
     }}>
       <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
-        <div style={{ 
-          width: '32px', 
-          height: '32px', 
-          background: 'linear-gradient(135deg, #FF3366, #ff6b95)',
-          borderRadius: '4px',
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'center',
-          fontWeight: '900',
-          color: 'white',
-          fontSize: '18px'
-        }}>V</div>
-        <span style={{ fontWeight: '800', fontSize: '1.4rem', letterSpacing: '1px' }}>
-          BVOX<span style={{ color: '#FF3366', fontSize: '0.8rem', verticalAlign: 'top' }}>™</span>
-        </span>
+        <img src="/bvox.png" alt="BVOX Logo" style={{ height: '40px', width: 'auto' }} />
       </div>
       
       <div style={{ display: 'none', gap: '30px', fontWeight: '500' }} className="md-flex">

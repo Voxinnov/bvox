@@ -11,18 +11,18 @@ const About = () => {
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
         >
-          <h2 style={{ fontSize: '2.5rem', marginBottom: '20px' }}>What is BVOX?</h2>
+          <h2 style={{ fontSize: '2.5rem', marginBottom: '20px' }}>What is <img src="/bvox.png" alt="BVOX" style={{ height: '1.2em', verticalAlign: 'middle', marginBottom: '4px' }} />?</h2>
           <p style={{ marginBottom: '20px', fontSize: '1.1rem' }}>
-            BVOX (Business Vox) is the commercial innovation platform of VoxInnov where advanced technologies, 
+            <img src="/bvox.png" alt="BVOX" style={{ height: '1.1em', verticalAlign: 'middle' }} /> (Business Vox) is the commercial innovation platform of VOXINNOV where advanced technologies, 
             products, and digital solutions are demonstrated and deployed for businesses.
           </p>
           <p style={{ marginBottom: '30px' }}>
             We bridge the gap between pure engineering and market-ready enterprise solutions. 
-            By leveraging VoxInnov's core R&D, we deliver rapid prototyping and production-grade software 
+            By leveraging VOXINNOV's core R&D, we deliver rapid prototyping and production-grade software 
             that solves real business challenges.
           </p>
           <ul style={{ listStyle: 'none', padding: 0 }}>
-            {['Innovation-driven approach', 'Focus on enterprise solutions', 'Rapid prototyping', 'VoxInnov Engineering'].map((item, i) => (
+            {['Innovation-driven approach', 'Focus on enterprise solutions', 'Rapid prototyping', 'VOXINNOV Engineering'].map((item, i) => (
               <li key={i} style={{ display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '12px', color: '#fff' }}>
                 <span style={{ color: '#00D2FF' }}>✓</span> {item}
               </li>
@@ -38,7 +38,7 @@ const About = () => {
           className="glass-card"
           style={{ height: '400px', display: 'flex', alignItems: 'center', justifyContent: 'center', overflow: 'hidden' }}
         >
-          <div style={{ position: 'relative', width: '100%', height: '100%' }}>
+          <div style={{ position: 'relative', width: '100%', height: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
             <div style={{ 
               position: 'absolute', 
               top: '50%', 
@@ -51,9 +51,8 @@ const About = () => {
               filter: 'blur(40px)',
               opacity: 0.3
             }}></div>
-            <div style={{ textAlign: 'center', position: 'relative', zIndex: 1 }}>
-               <h3 style={{ fontSize: '3rem', color: '#FF3366' }}>VOX</h3>
-               <p style={{ letterSpacing: '8px', marginLeft: '8px' }}>INNOV</p>
+            <div style={{ position: 'relative', zIndex: 1, textAlign: 'center' }}>
+               <img src="/voxinnov_logo.png" alt="VOXINNOV" style={{ height: '4.5rem', width: 'auto' }} />
             </div>
           </div>
         </motion.div>

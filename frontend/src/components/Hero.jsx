@@ -39,7 +39,7 @@ const Hero = () => {
           WebkitTextFillColor: 'transparent'
         }}>
           Business Solutions <br />
-          <span style={{ color: '#00D2FF' }}>Powered by VoxInnov</span>
+          <span style={{ color: '#00D2FF' }}>Powered by VOXINNOV</span>
         </h1>
         <p style={{ 
           maxWidth: '700px', 
@@ -47,7 +47,7 @@ const Hero = () => {
           marginBottom: '40px',
           marginInline: 'auto'
         }}>
-          BVOX is the business innovation division of VoxInnov delivering smart digital solutions, 
+          BVOX is the business innovation division of VOXINNOV delivering smart digital solutions, 
           AI technologies, and product demonstrations for the enterprise of tomorrow.
         </p>
         <div style={{ display: 'flex', gap: '20px', justifyContent: 'center', flexWrap: 'wrap' }}>

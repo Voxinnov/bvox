@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 
 const features = [
-  { title: "Innovation-driven", desc: "Built on VoxInnov's cutting-edge R&D foundation." },
+  { title: "Innovation-driven", desc: "Built on VOXINNOV's cutting-edge R&D foundation." },
   { title: "Enterprise-ready", desc: "Production-grade platforms designed for scale." },
   { title: "Rapid Prototyping", desc: "Move from concept to MVP in record time." },
   { title: "Smart Automation", desc: "Efficiency-first systems that work for you." }
@@ -13,10 +13,10 @@ const WhyBvox = () => {
     <section id="why">
       <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '80px', alignItems: 'center' }} className="responsive-grid">
         <div>
-          <h2 style={{ fontSize: '2.5rem', marginBottom: '25px' }}>Why Choose BVOX?</h2>
+          <h2 style={{ fontSize: '2.5rem', marginBottom: '25px' }}>Why Choose <img src="/bvox.png" alt="BVOX" style={{ height: '1.2em', verticalAlign: 'middle', marginBottom: '4px' }} />?</h2>
           <p style={{ fontSize: '1.1rem', marginBottom: '40px' }}>
             We don't just build software; we engineer business transformation. 
-            By merging deep technical research with commercial viability, BVOX provides 
+            By merging deep technical research with commercial viability, <img src="/bvox.png" alt="BVOX" style={{ height: '1.1em', verticalAlign: 'middle' }} /> provides 
             a unique competitive edge.
           </p>
           <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '20px' }}>
@@ -44,7 +44,7 @@ const WhyBvox = () => {
               style={{ width: '60%', height: '60%', border: '2px dashed #00D2FF', borderRadius: '50%', opacity: 0.3 }}
             />
             <div style={{ position: 'absolute', textAlign: 'center' }}>
-               <h3 style={{ fontSize: '1.5rem' }}>VoxInnov</h3>
+               <h3 style={{ fontSize: '1.5rem' }}>VOXINNOV</h3>
                <p style={{ fontSize: '0.7rem', textTransform: 'uppercase', letterSpacing: '4px' }}>Engineering</p>
             </div>
           </div>

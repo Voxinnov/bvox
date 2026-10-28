@@ -12,7 +12,7 @@ const Contact = () => {
     setStatus({ loading: true, success: false, error: null });
     
     try {
-      await axios.post('http://localhost:5001/api/contact', formData);
+      await axios.post('/api/contact', formData);
       setStatus({ loading: false, success: true, error: null });
       setFormData({ name: '', email: '', message: '' });
     } catch (err) {
@@ -37,7 +37,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 style={{ fontSize: '0.9rem' }}>Email</h4>
-                  <p style={{ color: '#fff', fontSize: '0.9rem' }}>hello@bvox.in</p>
+                  <p style={{ color: '#fff', fontSize: '0.9rem' }}>info@voxinnov.com</p>
                 </div>
               </div>
             </div>
@@ -48,12 +48,12 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 style={{ fontSize: '0.9rem' }}>WhatsApp</h4>
-                  <p style={{ color: '#fff', fontSize: '0.9rem' }}>+91 999 000 0000</p>
+                  <p style={{ color: '#fff', fontSize: '0.9rem' }}>+91 83300 01050</p>
                 </div>
               </div>
             </div>
             <p style={{ fontSize: '0.8rem', opacity: 0.6 }}>
-              Looking for support? Visit our help center or reach out to our technical team at VoxInnov.
+              Looking for support? Visit our help center or reach out to our technical team at VOXINNOV.
             </p>
           </div>
 
